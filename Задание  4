@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    { /*Посчитать количество и сумму парных чисел в диапазоне от 1 до N.*/
+        Console.WriteLine("Введите длину катета = ");
+        int m = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i <= m; i++)
+        {
+            int k = 0;
+            while (k < i)
+            {
+                Console.Write("*");
+                k++;
+            }
+            Console.WriteLine();
+        }
+    }
+}
