@@ -3,7 +3,8 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    { /*Посчитать количество и сумму парных чисел в диапазоне от 1 до N.*/
+    { /*Вывести на экран, консольного приложения, прямоугольный треугольник 
+    из звездочек “*”, с длиной катета m.*/
         Console.WriteLine("Введите длину катета = ");
         int m = Convert.ToInt32(Console.ReadLine());
 
